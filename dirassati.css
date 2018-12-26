@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column ;
+    margin: 0px ;
+    padding: 0px ;
+  
+    }
+
+
+
+.header {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    background: #A9CCE3;
+}
+
+    .site-name {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+        margin: 1rem;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation-list {
+        display: flex;
+        list-style-type: none;
+    }
+    .sear{
+
+
+    }
+
+    .nav-link {
+        padding: 0 1rem 0 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+.mid-section {
+    display: flex;
+    background: white;
+
+
+}
+
+    .main-content {
+        flex: 1 1 auto;
+        order: 3;
+        margin: 0rem 2rem;
+    }
+
+    .main-title {
+        font-size: 2rem;
+    }
+
+    .sidebar {
+        flex: 1 0 20vw;
+        }
+
+    .sidebar-left {
+        order: 1;
+        background: #C39BD3;
+    }
+
+    .sidebar-right {
+        order: 3;
+        background: #C39BD3;
+    }
+
+    .sidebar-title {
+        font-size: 1,5rem;
+        margin: 2rem 0rem 1rem 1rem;
+    }
+
+    .sidebar-image {
+        max-width: 100%;
+        margin-inline-start: 1rem;
+        margin-inline-end: 1rem;
+    }
+
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    flex: 0 0 auto;
+    background: #A9CCE3;
+}
